@@ -223,34 +223,3 @@ placement_portal/
         └── index.js           # React entry point
 ```
 
----
-
-## 📸 Screenshots
-
-> _Add screenshots of the Student Registration and Company Search pages here._
-
-| Student Registration | Company Search |
-| -------------------- | -------------- |
-| ![Student Tab](#)    | ![Company Tab](#) |
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] **Authentication** — Login/signup for students and companies
-- [ ] **Resume Upload** — Allow students to upload PDF resumes
-- [ ] **Job Postings** — Companies can post job/internship openings
-- [ ] **Email Notifications** — Notify students when shortlisted
-- [ ] **Admin Dashboard** — Placement cell admin panel with analytics
-- [ ] **REST API with JSON** — Migrate from plain text to JSON responses
-- [ ] **Pagination** — Paginate search results for large datasets
-
----
-
-## 📄 License
-
-This project is open-source and available for educational purposes.
-
----
-
-<p align="center">Made with ❤️ for campus placements</p>
