@@ -8,7 +8,7 @@ public class Server {
     static Connection conn;
 
     public static void main(String[] args) throws Exception {
-
+        //made connection
         conn = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/placement_db",
                 "postgres",

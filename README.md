@@ -223,3 +223,16 @@ placement_portal/
         └── index.js           # React entry point
 ```
 
+---
+
+## 📸 Screenshots
+
+### Student Registration
+![Student Registration](frontend/public/StudentRegister.png)
+
+### Company Search — All Results
+![Searching Students](frontend/public/searching.png)
+
+### Company Search — Filtered by Name & CGPA
+![Filtering Students](frontend/public/Filtering.png)
+
