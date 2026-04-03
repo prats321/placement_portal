@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔥 Background image with blur */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  filter: blur(0px);
+  z-index: -1;
+}
+
+/* 🔥 Center container */
+.container {
+  width: 500px;
+  margin: 80px auto;
+  padding: 25px;
+
+  background-color: rgba(255, 255, 255, 0.7); /* 👈 reduce opacity */
+  backdrop-filter: blur(10px); /* 👈 glass effect */
+
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Tabs */
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs button:hover {
+  background-color: #bbb;
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Result box */
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 15px;
+  height: 150px;
+  overflow-y: auto;
+  border-radius: 5px;
+  text-align: left;
+}
